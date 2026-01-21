@@ -170,7 +170,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "about":
         buttons = [[
-	    InlineKeyboardButton('💻 ʙᴜʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/toon_senpai')
+	    InlineKeyboardButton('💻 ʙᴜʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/mineheartO')
 	],[
             InlineKeyboardButton('• ʜᴏᴍᴇ •', callback_data='start'),
 	    InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
@@ -425,7 +425,7 @@ async def delete_files_list(client, message):
 @Client.on_message(filters.command("about"))
 async def about(client, message):
     buttons = [[
-       InlineKeyboardButton('💻 ʙᴜʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/toon_senpai')
+       InlineKeyboardButton('💻 ʙᴜʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/mineheartO')
     ],[
        InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
     ]]
