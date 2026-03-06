@@ -8,7 +8,7 @@ SESSION = environ.get('SESSION', 'Webavbot')  # Pyrogram client session name
 
 API_ID = int(environ.get('API_ID', '39777600'))  # Telegram API ID
 API_HASH = environ.get('API_HASH', '319d6e8b7991ee1e15fcd2f1ba8a4b9a')  # Telegram API Hash
-BOT_TOKEN = environ.get('BOT_TOKEN', '8514480197:AAFZFr4lanhnfBfD5iLxyUQSyC27JlxTJbE')  # Telegram Bot Token
+BOT_TOKEN = environ.get('BOT_TOKEN', '8514480197:AAEJ5ll5qlaeaMVmkxB1_2Bk4cZ3cHmuQ_c')  # Telegram Bot Token
 
 # 👑, Channels & Logs
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003417222211'))  # File storage channel
